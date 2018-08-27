@@ -1,0 +1,32 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Manufacturer_Name,Arrow Part Number,Height,Arrow Price/Stock,Manufacturer_Part_Number
+1,Unpolarized capacitor,C,C10 C11 C16 C17,0.1UF,C_0402_1005Metric,4,~,,,,,
+2,Unpolarized capacitor,C,C2 C3 C4 C5,10PF,C_0402_1005Metric,4,~,,,,,
+3,Unpolarized capacitor,C,C8 C9 C14 C15,10UF,C_0402_1005Metric,4,~,,,,,
+4,Unpolarized capacitor,C,C1,1UF,C_0402_1005Metric,1,~,,,,,
+5,Unpolarized capacitor,C,C6 C7 C12 C13,22UF,C_0402_1005Metric,4,~,,,,,
+6,Diode,D,D1 D2,641-1675-1-ND,D_0402_1005Metric,2,CDBQR0130L-HF,,,,,
+7,"4.5V to 17V Input, 2A Output, Synchronous Step-Down Converter",TPS562201DDCR,IC1 IC2,TPS562201DDCR,SOT95P280X110-6N,2,http://www.ti.com/lit/gpn/tps562201,Texas Instruments,TPS562201DDCR,1.1,https://www.arrow.com/en/products/tps562201ddcr/texas-instruments,TPS562201DDCR
+8,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x02_Male,J13,Conn_01x02_Male,Molex_CLIK-Mate_502443-0270_1x02-1MP_P2.00mm_Vertical,1,~,,,,,
+9,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x04_Male,J12 J14 J15,Conn_01x04_Male,Molex_CLIK-Mate_502443-0470_1x04-1MP_P2.00mm_Vertical,3,~,,,,,
+10,"Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x06_Male,J1 J2 J3 J4 J5 J6 J7 J8 J9 J10 J11 J16,Conn_01x06_Male,Molex_CLIK-Mate_502443-0670_1x06-1MP_P2.00mm_Vertical,12,~,,,,,
+11,Inductor,L,L1 L2,4.7UH,L_1206_3216Metric,2,~,,,,,
+12,Resistor,R,R1 R2 R3 R5 R6,10K,R_0402_1005Metric,5,~,,,,,
+13,Resistor,R,R4 R7,33.2K,R_0402_1005Metric,2,~,,,,,
+14,"ARM Cortex-M7 MCU, 2048KB flash, 864KB RAM, 400MHz, 1.7-3.6V, 140 GPIO, LQFP-176",STM32H753IITx,U1,STM32H753IITx,LQFP-176_24x24mm_P0.5mm,1,http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00388325.pdf,,,,,
+15,"Four pin crystal (GND on pins 2 and 4), e.g. in SMD package",Crystal_GND24,Y1,32.768KHZ,Crystal_SMD_2016-4Pin_2.0x1.6mm,1,~,,,,,
+16,"Four pin crystal (GND on pins 2 and 4), e.g. in SMD package",Crystal_GND24,Y2,32MHZ,Crystal_SMD_2016-4Pin_2.0x1.6mm,1,~,,,,,
+
+
+
+
+
+Component Groups:,16
+Component Count:,49
+Fitted Components:,49
+Number of PCBs:,1
+Total components:,49
+Schematic Version:,
+Schematic Date:,
+BoM Date:,Sun 26 Aug 2018 05:25:00 PM EDT
+Schematic Source:,/home/kbisland/Documents/SmallKat Jumbo Motherboard/SmallKat Jumbo Motherboard.sch
+KiCad Version:,Eeschema 5.0.0-fee4fd1~66~ubuntu16.04.1
